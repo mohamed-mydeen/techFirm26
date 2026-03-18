@@ -94,29 +94,16 @@ const nonTechnicalEvents = [
     glowColor: 'rgba(236,72,153,0.3)',
     description: 'Design innovative and eye-catching posters on a spot-assigned topic.',
     guidelines: [
-      'Individual participation',
-      'Topic will be announced on the spot',
-      'Time limit: 45 minutes',
-      'Creativity, clarity, and design quality will be judged',
-      'Materials will be provided',
+      'All participants must wear their college ID card',
+      'Posters must be created using tools like Canva,Adobe Express, VistaCreate, or Figma only.',
+      'Alldesigns must be original',
+      'Participants must complete the poster within the given time limit',
+      'Internet may be used only for basic resources; copying designs is not allowed',
+      'Maintain creativity, neatness, and relevance to the theme',
+      ' Judges’decision will be final and binding'
     ],
   },
-  {
-    id: 'hunt',
-    name: 'Treasure Hunt',
-    icon: '🗺️',
-    color: 'from-teal-600/20 to-cyan-600/10',
-    borderColor: 'border-teal-500/30',
-    glowColor: 'rgba(20,184,166,0.3)',
-    description: 'Decode clues and race across the campus to find the hidden treasure.',
-    guidelines: [
-      'Teams of 2–3 members',
-      'Solve clues to find the treasure location',
-      'Mobile phone usage is restricted',
-      'First team to complete wins',
-      'Team must stay together throughout',
-    ],
-  },
+  
   {
     id: 'photography',
     name: 'Photography',
@@ -148,11 +135,14 @@ const nonTechnicalEvents = [
     glowColor: 'rgba(234,179,8,0.3)',
     description: 'Improvise a funny and creative advertisement for a random product on the spot.',
     guidelines: [
-      'Teams of 3–4 members',
-      'Product will be assigned on the spot',
-      'Maximum performance time: 3 minutes',
-      'Creativity and presentation skills will be judged',
-      'Props can be sourced from available materials',
+      'All participants must wear their college ID cards during the event.',
+      'The event is open to all students from participating institutions',
+      'Participants must strictly follow the instructions given for each round',
+      'Performances must be carried out as per the mode decided by the organizers',
+      'Participants must perform individually. Teamwork or external help is not allowed',
+      'Any form of malpractice or unfair means will lead to disqualification',
+      'Participants will be judged based on creativity, confidence, performance, and presentation',
+      'Participants must adhere to the time limits. Late or extended performances will not be considered'
     ],
   },
   {
