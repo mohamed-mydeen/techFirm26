@@ -7,7 +7,7 @@ const coordinators = {
     { name: 'Dr. Gomathi S', role: 'Professor & Head – CSBS', type: 'Convener' },
   ],
   staff: [
-    { name: 'Mrs. Evangelin Sneha Michael', role: 'AP/CSBS', type: 'Staff Co-ordinator', phone: '+91 77083 64596' },
+    { name: 'Mrs. Evangelin Sneha Michael', role: 'AP/CSBS', type: 'Staff Co-ordinator' },
   ],
   students: [
     { name: 'Mr. Esakki Anand', role: 'III – CSBS', type: 'Student Co-ordinator', phone: '+91 88387 90512' },
@@ -71,7 +71,7 @@ const Contact = () => {
               <h3 className="text-lg font-bold text-white mb-6">Quick Info</h3>
               {[
                 { icon: '📧', label: 'Email', value: 'csbs.techfirm@fxeng.ac.in' },
-                { icon: '📞', label: 'Query Helpline', value: '+91 77083 64596' },
+                { icon: '📞', label: 'Query Helpline', value: '+91 88387 90512' },
                 { icon: '📍', label: 'Venue', value: 'APJ Auditorium, FXEC' },
                 { icon: '📅', label: 'Date', value: 'March 25, 2026 · 9:30 AM – 4:00 PM' },
                 { icon: '💰', label: 'Registration Fee', value: '₹200 per participant' },
