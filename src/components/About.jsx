@@ -40,7 +40,7 @@ const About = () => {
                 className="btn-primary">
                 <span>Register Now</span>
               </button>
-              <button className="btn-secondary">Learn More</button>
+              
             </div>
           </motion.div>
 
