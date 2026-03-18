@@ -3,11 +3,8 @@ import { FaInstagram, FaLinkedinIn, FaFacebookF, FaYoutube, FaTwitter } from 're
 import { Link } from 'react-scroll';
 
 const socials = [
-  { icon: <FaInstagram />, href: '#' },
-  { icon: <FaLinkedinIn />, href: '#' },
-  { icon: <FaFacebookF />, href: '#' },
-  { icon: <FaTwitter />, href: '#' },
-  { icon: <FaYoutube />, href: '#' },
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/techfirm_2k25?igsh=NjMwZWdzdXVnYWxi' },
+ 
 ];
 
 const Footer = () => {
@@ -45,7 +42,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xs uppercase tracking-[0.2em] text-slate-500 font-bold mb-5">Quick Links</h3>
             <ul className="space-y-3">
-              {['Home', 'About', 'Events', 'Gallery', 'Contact'].map(item => (
+              {['Home', 'About', 'Events',  'Contact'].map(item => (
                 <li key={item}>
                   <Link to={item.toLowerCase()} smooth duration={600} offset={-80}
                     className="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer flex items-center gap-2 group">
@@ -79,8 +76,8 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-600 text-xs">
-          <p>© 2026 Dept. of CSBS · Francis Xavier Engineering College, Tirunelveli</p>
-          <p>Designed with ❤️ by CSBS Students</p>
+          
+          
         </div>
       </div>
     </footer>
