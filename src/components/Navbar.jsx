@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? 'py-2 glass-strong' : 'py-6 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <img src="logooo.png" className="w-32 h-13" alt="" />
+        <img src="logooo.png" className="w-28" alt="" />
         {/* Logo */}
         {/* <motion.a href="#home" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}
           className="flex items-center gap-3 cursor-pointer">
